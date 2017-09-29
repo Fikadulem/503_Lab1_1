@@ -1,7 +1,7 @@
 # Lab 1.1: Make a Website from a blank canvas
 
-Here we go!
-#Introduction
+
+## Introduction
 
 In lab 1 part 1, we will be learning the basics of HTML, CSS, JavaScript, and File Transfer Protocol (FTP). **Think of HTML as the noun, CSS as the adjective and JavaScript as the verb.** HTML holds the content that the browser reads, the CSS describes how each feature on your site will look and JavaScript describes the actions and interaction. I will describe how to build each of these files, and together we will build a very basic website. Next week, in part 2, we will download a HTML5, CSS3 template, but before we do that, let’s learn and execute the basics and write code by hand. It is going to be fun! We will work through <a href="http://slides.com/brittaricker-1/make-a-website-together-by-hand#/">the following slides together in class</a>, you are welcome to use these as reference. When you follow this tutorial, you will end up with a website that looks something like <a href="http://faculty.washington.edu/bricker0/basic.html">this</a>. 
 
@@ -14,7 +14,7 @@ To gain a deeper understanding of HTML, CSS and JavaScript on your own, I sugges
 <a href="http://www.w3schools.com/js/"> W3Schools Learn JavaScript </a><br>
 
 
-##For this assignment, you will demonstrate the ability to:
+## For this assignment, you will demonstrate the ability to:
 
 •	Write fundamental HTML, CSS and JavaScript files<Br>
 •	Create home page, maps page and about page using HTML<br>
@@ -22,18 +22,18 @@ To gain a deeper understanding of HTML, CSS and JavaScript on your own, I sugges
 •	Add basic interaction to your website using JavaScript<br>
 •	Post your website to UW server OR Github pages so others can access it on the internet!<br>
 
-##Software Required
+## Software Required
 •	Text Editor: I recommend Sublime Text.  Alternatives include Notepad ++, DreamWeaver (not free), Kompozer <br>
 •	FTP Client of your choice. I use FileZilla or a Github account if you will be using GitHub Pages. (We will talk about the pros and cons of each in class)<br>
 
 
-##1. Activate your UW web space (do this on your own)
+## 1. Activate your UW web space (do this on your own)
 UW provides free web space to all students. To activate your web hosting account through UW follow the directions here http://www.washington.edu/itconnect/connect/web-publishing/shared-hosting/activating-shared-web-hosting/
 Your “MyUW Manage” screen should show you your domain name.<br> 
 It should be something like http://students.washington.edu/yournetid<br> 
 My domain name is http://faculty.washington.edu/bricker0/<br> 
 
-###Resources from University of Washington IT Connect<br>
+### Resources from University of Washington IT Connect<br>
 Basic information about Web Publishing using UW resources can be found here:
 http://www.washington.edu/itconnect/connect/web-publishing/
 Guidelines for Publishing on the UW Web site can be found here:
@@ -41,9 +41,9 @@ http://www.washington.edu/webguides/
 <br>Appropriate Use of web space guidelines and legal issues can be found here:
 http://www.washington.edu/itconnect/work/appropriate-use/
 
-##2. Create Html, CSS, and Javascript files
+## 2. Create Html, CSS, and Javascript files
 
-##A few tips before you get started
+## A few tips before you get started
 •	Organization is key! Keep your files organized, backup, and coherently named.<br>
 •	Working “locally” means working on files that are saved on your local hard drive rather than the files that are live on the web, outward facing UW servers. <br>
 •	**CASE SENSTIVE** HTML, CSS and JavaScript are case sensitive! Remember this! <br> 
@@ -72,10 +72,10 @@ Turn a word into an active link like this one to <a href="http://faculty.washing
 <a href="http://faculty.washington.edu/bricker0/>my awesome website.</a>
 ```
 
-###Create a directory or a folder
+### Create a directory or a folder
 The aim is to get and stay organized! Create a local directory called "website" In that directory create a sub-folder called "scripts."
 
-###Create an Html File
+### Create an Html File
 Open your text editor, like Sublime. Create a new file called "index.html" save this in your new folder called "website" your index.html is where your website visitors will land when they click on your domain, it is the default page, the landing page. 
 <br>
 Tell the browser it is reading HTML by adding an html tag and then closing it. All of your code will go between these tags. <br>
@@ -113,7 +113,7 @@ This is my website where I present my work to the world.
 Great job! You wrote your first HTML document. Open this file in an internet browswer of your choice. Might I suggest Chrome or Firefox. Notice your site is lacking style! Let's work on that now!
 
 
-###Create a CSS File
+### Create a CSS File
 
 We are going to create a style guide so that all of the styles are uniform across each webpage. We are going to create a style for the background, the heading, and the paragraph font. In the example I provide below, you will se h1 means heading 1, p means paragraph. The body of my page will have a background color of orange, the number represents the RGB value, red value of 20, green value of 5 and 0 blue. You can figure this out by looking at the number that represents the color. I provide example code here. Please change the defaults to style your site as you would like. There are several style reference and guides available online like this one called <a href="http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF">paletton</a> 
 
@@ -142,7 +142,7 @@ p {
 }
 ```
 
-###Create a JavaScript File
+### Create a JavaScript File
 
 We will learn more JavaScript next week, but let's get our first taste of what is to come. Here we are just going to build a navigation bar using javascript. We are going to build a script that builds tabs for navigation. There will be a button for the user to navigate between pages on your site. 
 
@@ -159,7 +159,7 @@ document.getElementById("nav01").innerHTML =
 
 I don't mean to scare you, but javascript gets complex really quick. You will be responsible for <a href="https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.90d87dclb">keeping up</a> with this as much or as little as you want in the future. 
 
-###Back to Html
+### Back to Html
 In your index file, you need to reference both the js file and the css file to see any changes to the style and to see the menu! Add the following to the head sections in each of your .html files. 
 
 ```
@@ -188,9 +188,8 @@ Alternatively, you may include this code to add a Mapbox map. However, notice at
 <iframe width="100%" height="450" frameborder="0" style="border:0"
 src="https://a.tiles.mapbox.com/v3/eleanor.mnyzxgvi.html?secure#3/20.55/-374.59">"></iframe>
 ```
-Screenshot-2017-9-29%20Woodcut.png
 
-###Back to the CSS
+# Back to the CSS
 When you render your page now, you will see that the links on the navigation bar are ugly! Change the style in the CSS file. Change the hover, links and menu. You can see my example, but you are expected to come up with your own style!
 
 ## 3. Final step: Moving files onto the server
@@ -214,14 +213,14 @@ In this case, you will need to move your file called “index.html” and the fo
 And your website should render beautifully! If it doesn’t, double check your work…
 Everything needs to be placed exactly where you stated they are located in the directory you reference! Make sure all paths work correctly or else they will not be referenced.
 
-#For Homework Submission
+# For Homework Submission
 You are to submit a link to your working website. I will be grading on HTML Files, CSS files, JavaScript. Did you follow these directions? Leave notes for yourself? Change your code so it doesn't match mine completely? See the rubric on canvas.
 In the online directions with example code, you were to make a home page called “index” This will act as your home page. Here please put your name and the purpose of this website (portfolio of your work for the Master of Geospatial Technologies degree!). 
 As mentioned before, normally, your home page should always be called “index.html” that is the default file in your directory, so when someone comes to your website they will go straight there and they don’t have to add more file names to the path to find you. Next week we will change these files dramatically in Lab 1 part 2.<br>
 You were also to make two more HTML files. One called “maps.html” and another called “about.html”
 On the about page, please tell the reader about yourself. Please be professional. This website will reflect you and your work. It will also reflect our program and your peers. Here is my about page http://faculty.washington.edu/bricker0/about.html. This week I don’t expect your style to be perfect (we will use a template like mine next week) nor do I require pictures this week. However, I do expect a professional description of yourself. You are welcome to share some personal information as well (ie. I like to go running and hiking). If you have questions, please post them to the tips and tricks discussion board. 
 
-#submit a working link to your webpage on canvas! 
+# submit a working link to your webpage on canvas! 
 
 
 
