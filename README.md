@@ -1,6 +1,6 @@
 # Lab 1.1: Make a Website from a blank canvas
 
-##Introduction
+#Introduction
 
 In lab 1 part 1, we will be learning the basics of HTML, CSS, JavaScript, and File Transfer Protocol (FTP). **Think of HTML as the noun, CSS as the adjective and JavaScript as the verb.** HTML holds the content that the browser reads, the CSS describes how each feature on your site will look and JavaScript describes the actions and interaction. I will describe how to build each of these files, and together we will build a very basic website. Next week, in part 2, we will download a HTML5, CSS3 template, but before we do that, let’s learn and execute the basics and write code by hand. It is going to be fun! We will work through <a href="http://slides.com/brittaricker-1/make-a-website-together-by-hand#/">the following slides together in class</a>, you are welcome to use these as reference. When you follow this tutorial, you will end up with a website that looks something like <a href="http://faculty.washington.edu/bricker0/basic.html">this</a>. 
 
@@ -182,12 +182,13 @@ I enter the following into my maps.html document
 ```
 Now, your index.html will be the landing page for your visitors, maps page will have a navigation menu and a map, and the about page will have a navigation menu and information all about you. 
 
-###Add a map!
-Since this is for a web mapping course, you need to add a map! If you are feeling completely overwhelemed you can simply add a google map using an iFrame. For example, you may include this code to add a Mapbox map. However, notice at the end of the link is the lat long of the center point and the zoom level, please change that to somewhere that is meaningful for you. You can see what the result would look like by clicking here <a href="https://a.tiles.mapbox.com/v3/eleanor.mnyzxgvi.html?secure#3/20.55/-374.59">check out this map!</a>
+Alternatively, you may include this code to add a Mapbox map. However, notice at the end of the link is the lat long of the center point and the zoom level, please change that to somewhere that is meaningful for you. You can see what the result would look like by clicking here <a href="https://a.tiles.mapbox.com/v3/eleanor.mnyzxgvi.html?secure#3/20.55/-374.59">check out this map!</a>
 ```
 <iframe width="100%" height="450" frameborder="0" style="border:0"
 src="https://a.tiles.mapbox.com/v3/eleanor.mnyzxgvi.html?secure#3/20.55/-374.59">"></iframe>
 ```
+https://github.com/UWTMGIS/503_Lab1_1/blob/master/Screenshot-2017-9-29%20Woodcut.png
+
 ###Back to the CSS
 When you render your page now, you will see that the links on the navigation bar are ugly! Change the style in the CSS file. Change the hover, links and menu. You can see my example, but you are expected to come up with your own style!
 
