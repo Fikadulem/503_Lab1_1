@@ -183,9 +183,11 @@ I enter the following into my maps.html document
 Now, your index.html will be the landing page for your visitors, maps page will have a navigation menu and a map, and the about page will have a navigation menu and information all about you. 
 
 ###Add a map!
-Since this is for a web mapping course, you need to add a map! If you are feeling completely overwhelemed you can simply add a google map using an iFrame. For example, you may include this code to add a Mapbox map. However, notice at the end of the link is the lat long of the center point and the zoom level, please change that to somewhere that is meaningful for you. <iframe width="100%" height="450" frameborder="0" style="border:0"
+Since this is for a web mapping course, you need to add a map! If you are feeling completely overwhelemed you can simply add a google map using an iFrame. For example, you may include this code to add a Mapbox map. However, notice at the end of the link is the lat long of the center point and the zoom level, please change that to somewhere that is meaningful for you. You can see what the result would look like by clicking here <a href="https://a.tiles.mapbox.com/v3/eleanor.mnyzxgvi.html?secure#3/20.55/-374.59">check out this map!</a>
+```
+<iframe width="100%" height="450" frameborder="0" style="border:0"
 src="https://a.tiles.mapbox.com/v3/eleanor.mnyzxgvi.html?secure#3/20.55/-374.59">"></iframe>
-
+```
 ###Back to the CSS
 When you render your page now, you will see that the links on the navigation bar are ugly! Change the style in the CSS file. Change the hover, links and menu. You can see my example, but you are expected to come up with your own style!
 
